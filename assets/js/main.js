@@ -318,7 +318,7 @@ function initAvionDetails() {
     }
 }
 
-// Keyframe animations via JS for simplicity in this setup
+// Animations par images clés via JavaScript pour plus de simplicité dans cette configuration
 const style = document.createElement('style');
 style.innerHTML = `
     @keyframes navLinkFade {
