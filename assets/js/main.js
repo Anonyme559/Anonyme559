@@ -24,13 +24,13 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Quiz Logic (if on quiz page)
+    // Quizz
     const quizContainer = document.getElementById('quiz-container');
     if (quizContainer) {
         initQuiz();
     }
 
-    // Avion details logic
+    // détails d'avions
     if (document.querySelector('.page-header h1') && (window.location.search.includes('model=') || document.title.includes('Concorde'))) {
         initAvionDetails();
     }
