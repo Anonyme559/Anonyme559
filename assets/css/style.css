@@ -61,7 +61,7 @@ img {
     .grid-2, .grid-3 { grid-template-columns: 1fr; }
 }
 
-/* Header & Nav */
+/* Header et Nav */
 header {
     background-color: var(--primary-color);
     color: var(--white);
