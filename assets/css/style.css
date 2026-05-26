@@ -61,7 +61,7 @@ img {
     .grid-2, .grid-3 { grid-template-columns: 1fr; }
 }
 
-/* Header et Nav */
+/* En-tête et Nav */
 header {
     background-color: var(--primary-color);
     color: var(--white);
@@ -108,7 +108,7 @@ header {
     transition: var(--transition);
 }
 
-/* Page Header / Hero */
+/* en-tête de page / Hero */
 .page-header {
     background: linear-gradient(rgba(0, 35, 71, 0.8), rgba(0, 35, 71, 0.8)), url('../images/hero-bg.jpg') center/cover no-repeat;
     color: var(--white);
@@ -248,7 +248,7 @@ tr:nth-child(even) {
     background-color: var(--light-gray);
 }
 
-/* Responsive Nav */
+/* Navigation adaptative */
 @media (max-width: 992px) {
     .nav-links {
         position: fixed;
@@ -270,7 +270,7 @@ tr:nth-child(even) {
     }
 }
 
-/* Quiz Styles */
+/* styles du quiz */
 #quiz-container {
     max-width: 800px;
     margin: 0 auto;
