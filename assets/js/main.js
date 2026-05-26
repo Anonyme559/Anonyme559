@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Toggle Nav
             nav.classList.toggle('nav-active');
 
-            // Animate Links
+            // Liens animés
             navLinks.forEach((link, index) => {
                 if (link.style.animation) {
                     link.style.animation = '';
@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             });
 
-            // Burger Animation
+            // Animation burger
             burger.classList.toggle('toggle');
         });
     }
